@@ -1,6 +1,9 @@
 # Pecan
 
-Mi configuración de pecan-style
+Mi configuración de Pecan
+
+
+# README
 
 ![Screenshot 1](https://github.com/jorgeatgu/pecan-config/blob/master/wallpaper.png)
 

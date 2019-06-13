@@ -2,7 +2,7 @@
 
 Mi configuración de pecan-style
 
-![Screenshot 1](/screenshots/3.jpg)
+![Screenshot 1](https://github.com/jorgeatgu/pecan-config/blob/master/wallpaper.png)
 
 Pecan is a bar for macOS.  It was built to be highly configurable and — by default — reports the current workspace, network bandwidth, date, battery percentage and time.
 

@@ -4,8 +4,8 @@
   /* Choose background colors, ordered from left to right */
   /* Set --pecan-bg-center to "none" to have date's background same as bar */
   --pecan-bg: #D5CACB;
-  --pecan-bg-left: #392863;
-  --pecan-bg-left2: #163c5e;
+  --pecan-bg-left: #021429;
+  --pecan-bg-left2: #366372;
   --pecan-bg-center: #141414;
   --pecan-bg-right2: #641407;
   --pecan-bg-right: #9D2C5D;
@@ -79,7 +79,7 @@
 
 /* Bar background */
 .background {
-  background-color: var(--pecan-bg);
+  /*background-color: var(--pecan-bg);*/
   display: block;
   position: absolute;
   height: var(--pecan-height);
@@ -93,7 +93,7 @@
   margin-left: var(--pecan-padding-left);
   opacity: .6;
   z-index: -1;
-  box-shadow: var(--pecan-shadow);
+  /*box-shadow: var(--pecan-shadow);*/
   border-radius: var(--pecan-border-radius);
 }
 
@@ -128,7 +128,8 @@
 }
 
 /* Network bandwidth -- 2nd to left */
-.left2 {
+.left2,
+.left3 {
   font: var(--pecan-font-size) var(--pecan-font);
   font-style: var(--pecan-font-style);
   background-color: var(--pecan-bg-left2);
@@ -152,6 +153,13 @@
     padding: 0 1rem;
 }
 
+.left3 {
+    right: 116px;
+    color: var(--pecan-fg-left);
+    background-color: var(--pecan-bg-left);
+    opacity: var(--pecan-opacity-inner);
+}
+
 /* Date -- third to left -- set --pecan-opacity-center to 0 to hide */
 .center {
   font: var(--pecan-font-size) var(--pecan-font);
@@ -173,7 +181,7 @@
   border-top-right-radius: var(--pecan-border-radius-inner);
   border-bottom-right-radius: var(--pecan-border-radius-inner);
   border-bottom-left-radius: var(--pecan-border-radius-inner);
-  box-shadow: var(--pecan-shadow-inner);
+  /*box-shadow: var(--pecan-shadow-inner);*/
 }
 
 /* This is a container to align the center widget */

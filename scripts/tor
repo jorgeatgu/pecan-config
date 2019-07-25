@@ -1,0 +1,9 @@
+#!/bin/bash
+
+TOR=$(networksetup -getsocksfirewallproxy WI-FI | grep -c "Enabled: Yes")
+
+if [ "$TOR" == 0 ] ;then
+    echo "✗ TOR-OFF"
+else
+    echo "▲ TOR-ON"
+fi
